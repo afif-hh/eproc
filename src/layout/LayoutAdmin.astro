@@ -1,0 +1,10 @@
+---
+import Layout from "./Layout.astro";
+import LayoutAdminComponent from "@/partials/common/LayoutAdmin.vue";
+---
+
+<Layout>
+  <LayoutAdminComponent client:load>
+    <slot />
+  </LayoutAdminComponent>
+</Layout>
