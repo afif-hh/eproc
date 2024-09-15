@@ -1,0 +1,38 @@
+{
+  "id": "5fedc8b1-e8a7-4558-b81f-b8b363f40293",
+  "prevId": "2283b210-6fc0-4b31-9041-0420512fec85",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.mahasiswa": {
+      "name": "mahasiswa",
+      "schema": "",
+      "columns": {
+        "nama": {
+          "name": "nama",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "umur": {
+          "name": "umur",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

@@ -1,10 +1,14 @@
 ---
 import Layout from "./Layout.astro";
 import LayoutAdminComponent from "@/partials/common/LayoutAdmin.vue";
+type Props = {
+  title: string;
+};
+const { title } = Astro.props;
 ---
 
 <Layout>
-  <LayoutAdminComponent client:load>
+  <LayoutAdminComponent title={title} client:load>
     <slot />
   </LayoutAdminComponent>
 </Layout>

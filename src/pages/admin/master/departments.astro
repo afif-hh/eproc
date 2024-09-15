@@ -1,0 +1,10 @@
+---
+import LayoutAdmin from "@/layout/LayoutAdmin.astro";
+import DepartmentPage from "@/partials/admin/master/department/DepartmentPage.vue";
+---
+
+<LayoutAdmin title="Departments">
+  <div>
+    <DepartmentPage client:load />
+  </div>
+</LayoutAdmin>

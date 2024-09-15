@@ -1,0 +1,1 @@
+ALTER TABLE "mahasiswa" ADD COLUMN "umur" integer;
